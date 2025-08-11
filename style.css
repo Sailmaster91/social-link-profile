@@ -33,7 +33,7 @@ body{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	
 }
 
 .container{
@@ -47,6 +47,7 @@ body{
 	border-radius: 8px;
 	padding: clamp(25px,5vw,38px);
 	margin-bottom: 100px;
+	margin-top: clamp(120px, 11vw, 178px);
 	.profile-container{
 		display: flex;
 		gap: 1.5em;
